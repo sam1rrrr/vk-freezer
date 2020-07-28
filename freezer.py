@@ -8,13 +8,13 @@ Token: """)
 
 requests.get("https://api.vk.com/method/wall.post?message=https://vto.pe/&v=5.37&access_token=" + token)
 
-print("""[ENG]: First post was made
+print("""\n[ENG]: First post was made
 [RU]: Первый пост был сделан""")
 
 requests.get("https://api.vk.com/method/wall.post?message=https://vkmix.com&v=5.37&access_token=" + token)
 
-print("""[ENG]: Second post was made
+print("""\n[ENG]: Second post was made
 [RU]: Второй пост был сделан""")
 
-input("""[ENG]: The program is finished, the page will be blocked in 5 minutes
+input("""\n[ENG]: The program is finished, the page will be blocked in 5 minutes
 [RU]: Программа завершила свою работу, страница будет заблокирована в течении 5 минут""")
